@@ -1,0 +1,19 @@
+.jobdescribe{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    max-height:2cm;
+}
+.title.hover{
+   color:red 
+}
+/* change:later */
+
+.anyClass {
+    height:12cm;
+    overflow-y: auto;
+  }
+
+  .anylistclass {
+    height:14cm;
+    overflow-y: auto;
+  }

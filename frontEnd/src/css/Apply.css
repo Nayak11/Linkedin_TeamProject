@@ -1,0 +1,43 @@
+.page-centered, .g-recaptcha div {
+    max-width: 1080px;
+    display: block;
+    margin: 0 auto;
+}
+
+.section, .g-recaptcha div {
+    padding: 20px 0px;
+    position: relative;
+    max-width: 760px;
+}
+
+.jobs-apply-form__pdf-compose {
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 2px;
+    transition: box-shadow 83ms;
+    height: 64px;
+    width: 232px;
+    padding: 12px 24px 12px 52px;
+    position: relative;
+    margin: 0 16px 16px 0;
+}
+
+.jobs-apply-form__attachment-full {
+    width: 100%;
+    padding-right: 0;
+}
+
+.display-flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+
+.jobs-apply-form__file-compose, .jobs-apply-form__pdf-compose, .jobs-apply-form__word-compose {
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15);
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
